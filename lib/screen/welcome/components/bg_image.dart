@@ -30,7 +30,10 @@ class BgImage extends StatelessWidget {
           bottom: 0,
           right: 0,
           left: 0,
-          child: SvgPicture.asset('assets/icons/boy.svg'),
+          child: SvgPicture.asset(
+            'assets/icons/boy.svg',
+            height: MediaQuery.of(context).size.height * 0.5,
+          ),
         )
       ],
     );

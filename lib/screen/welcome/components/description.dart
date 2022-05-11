@@ -17,7 +17,7 @@ class Description extends StatefulWidget {
 
 class _DescriptionState extends State<Description> {
   int currentPage = 0;
-  final PageController controller = PageController(initialPage: 3);
+  final PageController controller = PageController(initialPage: 0);
 
   @override
   Widget build(BuildContext context) {
